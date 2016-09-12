@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="airline1">
+    <output-path>$PROJECT_DIR$/out/artifacts/airline1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Airline" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/airline/postgresql-9.4.1208.jre6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/airline/jstl-1.2.jar" />
+          <element id="library" level="project" name="gson-2.2.2" />
+          <element id="library" level="project" name="postgresql-9.4.1208.jre6" />
+          <element id="library" level="project" name="java6SE" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Airline/web/Web" />
+    </root>
+  </artifact>
+</component>

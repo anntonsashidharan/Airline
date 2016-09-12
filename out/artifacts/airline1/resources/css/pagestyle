@@ -1,0 +1,154 @@
+html, body {
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0;
+    height: 100%;
+}
+
+
+body {
+    font-size: 16px;
+}
+
+.error{
+    color: red;
+}
+
+/*
+    Login page
+*/
+#header{
+    display: inline-flex;
+    background-color: lightgrey;
+    height: 180px;
+    width: 100%;
+}
+#footer{
+    display: inline-flex;
+    background-color: lightgrey;
+    height: 40px;
+    width: 100%;
+}
+
+#content{
+    display: inline-flex;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#logo {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#loginBox{
+    margin: auto;
+    width: 30%;
+    border: solid gray 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#loginHeader,#changePasswordHeader{
+    height: 50px;
+    font-size: 30px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: darkblue;
+    border: thin lightblue;
+    background-color: gainsboro;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.loginLine, .changePasswordLine{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.loginButton,.updatePasswordButton{
+    width: 80%;
+    margin: auto;
+}
+
+.forgotPassword{
+    width: 80%;
+    margin: auto;
+}
+
+.loginLine label,#changePasswordLine label{
+    display: inline-block;
+    width: 30%;
+}
+.loginLine input,#changePasswordLin input{
+    display: inline-block;
+    width: 68%;
+}
+
+#page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+
+
+/*
+update password
+*/
+
+#changePasswordBox{
+    margin: auto;
+    width: 40%;
+    border: solid gray 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.changePasswordLine label{
+    display: inline-block;
+    width: 35%;
+}
+.changePasswordLine input{
+    display: inline-block;
+    width: 63%;
+}
+
+
+
+
+/*main page*/
+#userOption{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-right: 15;
+}
+
+#userOption div {
+    float: right;
+}
+
+#treeMenu{
+    width: 25%;
+    border: solid black 1px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#contentPane{
+    width: 75%;
+    border: solid black 1px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
